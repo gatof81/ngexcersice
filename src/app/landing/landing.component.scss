@@ -1,0 +1,24 @@
+.ng-exercise-app {
+  max-width: 960px;
+  margin: 0 auto;
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-right: 16px;
+      width: 40px;
+    }
+  }
+  .tasks-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: lower-roman;
+    li {
+      border: 1px solid #dcdcdc;
+      padding: 10px 16px;
+      margin-bottom: 10px;
+    }
+  }
+}

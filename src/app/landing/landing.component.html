@@ -1,0 +1,14 @@
+<div class="ng-exercise-app">
+  <div class="page-header">
+    <img alt="Modus Logo" src="assets/images/modus-logo.png">
+    <h1 class="heading">
+        Angular Exercise - Modus Recruiting
+    </h1>
+  </div>
+  <h2>Tasks</h2>
+  <ul class="tasks-list">
+    <li *ngFor="let task of exerciseTasks;" [innerHTML]="task.description">
+
+    </li>
+  </ul>
+</div>

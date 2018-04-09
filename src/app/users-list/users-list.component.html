@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let user of userList" (click)="goToUserDetails(user.id.value)">
+    {{user.name.first}} {{user.name.last}}
+  </li>
+</ul>
